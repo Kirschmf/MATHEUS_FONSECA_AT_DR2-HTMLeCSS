@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Matheus Kirsch AT-HTMLCSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animated-text">KIRSCH, Matheus</h1>
+                <p class="animated-text">Desenvolvedor Front End</p>
+                <a href="#contato" class="cta-button">Entre em contato</a>
+            </div>
+            <div class="animated-bg"></div>
+        </section>
+
+        <section id="sobre" class="about">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <img src="./foto.jpg" alt="Matheus Kirsch" class="profile-pic">
+                <p class="about-text">Olá!
+
+                    Me chamo Matheus, sou ex-militar e atual estudante na área de Tecnologia.
+                    
+                    Ao longo da minha vida profissional, fiz parte de empresas nas quais sempre busquei aperfeiçoamento técnico-profissional e devida perfeição. Minha experiência anterior como militar me proporcionou habilidades valiosas, como a disciplina, adaptabilidade, precisão nos procedimentos e trabalho em equipe, que aplico diariamente nos meus estudos e trabalhos.</p>
+            </div>
+            <div class="skills">
+                <h3 class="skills-title">Habilidades</h3>
+                <ul class="skills-list">
+                    <li class="skill-item"><i class="fab fa-html5"></i> HTML5</li>
+                    <li class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</li>
+                    <li class="skill-item"><i class="fab fa-js"></i> JavaScript</li>
+                    <li class="skill-item"><i class="fab fa-react"></i> React</li>
+                    <li class="skill-item"><i class="fab fa-node-js"></i> Node.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="./flipcoin.jpg" alt="Projeto 1">
+                            <h3>Projeto 1</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Neste projeto, decidi colocar em prática meus conhecimentos ao fazer um simples jogo de moeda, melhor chamando, FLIPCOIN, onde o usuário joga a moeda e o resultado é gerado de forma aleatória, resultando em HEAD (cara) ou TAIL (coroa). Para este projeto foi utilizando somente HTML, CSS e JAVASCRIPT.  </p>
+                            <a href="#" class="project-link">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="./LP arquitetura.png" alt="Projeto 2">
+                            <h3>Projeto 2</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Neste projeto, realizei uma simples landing page para um escritório de arquitetura onde minha irmã trabalha. Para isto, utilizei somente HTML e CSS. Esta foi uma das primeiras landing pages que realizei.</p>
+                            <a href="#" class="project-link">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-flip">
+                        <div class="card-front">
+                            <img src="./jogodacobra.jpg" alt="Projeto 3">
+                            <h3>Projeto 3</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Neste projeto, obtive algumas ideias na internet e resolvi junto de um colega de outra graduação que faço, colocar em prática, realizando o famoso "Jogo da cobrinha", levando para o inglês, "SNAKE GAME". Para este projeto, utilizamos somente HTML, CSS e JAVASCRIPT.</p>
+                            <a href="#" class="project-link">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2 class="section-title">Entre em Contato</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu nome" required class="form-input">
+                <input type="email" placeholder="Seu e-mail" required class="form-input">
+                <textarea placeholder="Sua mensagem" required class="form-input"></textarea>
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Matheus Kirsch. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="https://github.com/Kirschmf" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kirschmf/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
